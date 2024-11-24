@@ -15,7 +15,7 @@ function App() {
   useEffect(()=>{
     console.log(window.api)
   },[])
-  const [image,setImage] = useState("myapp:///public/logo512.png")
+  const [image,setImage] = useState("myapp://public/logo512.png")
   return (
     <div className="App">
       <header className="App-header">
